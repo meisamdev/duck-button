@@ -3,10 +3,11 @@ const cp = require('child_process');
 
 let statusBarItem: vscode.StatusBarItem;
 const commandId = "duck-button.play";
-const quack = "https://quackoverflow.com/assets/squeak.wav";
 
 export function activate(context: vscode.ExtensionContext) {
 	console.log('Congratulations, your extension "duck-button" is now active!');
+
+	const quack = `${context.extensionPath}/resources/quack.mp3`;
 
 	let disposable = vscode.commands.registerCommand(commandId, () => {
 		vscode.window.showInformationMessage('Quack!');

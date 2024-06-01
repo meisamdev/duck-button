@@ -2,7 +2,7 @@
   "name": "duck-button",
   "displayName": "Duck Button",
   "description": "Adds a duck button that plays a duck sound.",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "publisher": "BorjaLopezPineda",
   "icon": "resources/icon.png",
   "repository": {
